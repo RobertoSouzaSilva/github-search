@@ -92,6 +92,10 @@
     font-weight: bold
 }
 
+.link{
+    color: #737373;
+}
+
 .btn-ver{
     width: 101px;
     height: 40px;

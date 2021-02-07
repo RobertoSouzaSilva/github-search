@@ -67,7 +67,7 @@ const Search = () => {
                           
                             <h6>Informações</h6>
                             <p className="infos infos-first"><span>Empresa: </span>&nbsp;{githubUser?.company}</p>
-                            <p className="infos"><span>Website/Blog: </span>&nbsp;{githubUser?.blog}</p>
+                            <p className="infos"><span>Website/Blog: </span>&nbsp; <a className="link" target="_new" href={githubUser?.blog}>{githubUser?.blog}</a> </p>
                             <p className="infos"><span>Localidade: </span>&nbsp;{githubUser?.location}</p>
                             <p className="infos"><span>Membro desde: </span>&nbsp;{githubUser?.created_at}</p>
                         </div>
