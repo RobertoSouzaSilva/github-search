@@ -39,7 +39,7 @@ const Search = () => {
             <form onSubmit={handleSubmit}>
                 <div className="box-search">
                     <h1 className="title">Encontre um perfil Github</h1>
-                    <input type="text" name="user" className="form" onChange={handleOnChange} placeholder="Usuário Github" /> <br />
+                    <input type="text" name="user" className="form" onChange={handleOnChange} placeholder="Usuário Github" required/> <br />
                     <Button texto="Encontrar" />
                 </div>
             </form>

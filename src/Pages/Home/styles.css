@@ -1,6 +1,7 @@
 .main-home{
     margin-top: 179px;
     margin-left: 120px;
+    margin-bottom: 30px;
 }
 
 .title-home{
@@ -20,10 +21,28 @@
     color: #5A6774;
 }
 
-.text span{
+.text-home span{
     color: #1890FF;
 }
 
 .bnt-home{
     margin-top: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .main-home{
+        margin-left: 20px;
+    }
+    .text-home{
+        justify-self: start;    
+    }
+
+    .title-home{
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+    }
+    .break-br{
+        display: none;
+    }
 }

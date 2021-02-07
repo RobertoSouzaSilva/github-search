@@ -13,3 +13,11 @@
     color: #FFFFFF;
     padding-left: 41px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .navbar-text{
+        display: flex;
+        justify-content: center;
+    }
+}

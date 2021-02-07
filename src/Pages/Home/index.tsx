@@ -6,7 +6,7 @@ import './styles.css';
 const Home = () => (
     <div className="main-home">
         <h1 className="title-home">
-            Desafio do Capítulo 3, <br/> Bootcamp DevSuperior
+            Desafio do Capítulo 3, <span className="break-br"><br/></span> Bootcamp DevSuperior
         </h1>
         <div className="text-home">
             <p>Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior.</p>
