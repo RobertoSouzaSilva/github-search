@@ -1,0 +1,15 @@
+.navbar{
+    height: 47px;
+    background: #1890FF;
+    padding-top: 15px;
+}
+
+.navbar-text{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;   
+    color: #FFFFFF;
+    padding-left: 41px;
+}
